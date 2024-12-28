@@ -1,0 +1,144 @@
+* {
+    font-family: "Happy Monkey", serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(lightskyblue, deepskyblue, cornflowerblue);
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bff-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid #F90059;
+}
+
+#bday-age {
+    background-color: #F90059;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px 0px 5px 0px;
+}
+
+#bday-date {
+    background-color: #F90059;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/happy.gif");
+    width: 400px;
+    height: 400px;
+}
+
+#gift-img-hot:hover {
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/hot.gif");
+    width: 400px;
+    height: 400px;
+}
+
+#gift-img-genius:hover {
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/genius.gif");
+    width: 400px;
+    height: 400px;
+}
+
+#gift-img-badass:hover {
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/badass.gif");
+    width: 400px;
+    height: 400px;
+}
+
+div.gift-img#gift-img-cheers:hover {
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/cheers.gif");
+    width: 400px;
+    height: 200px;
+}
+
+div.gift-img#gift-img-cheers {
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/gift-cover.jpg");
+    background-size: cover;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0px;
+}
+
+footer {
+    margin-top: 30px;
+    width: 400px;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover, a:focus-visible { /* after its use the focus will change */
+    color: #F90059;
+}
+
+a:active {
+    color: gold;
+}
+
+.bttt__a {
+    background-color: #F90059;
+    color: gold;
+    text-decoration: none;
+    box-shadow: -6px 6px 5px -5px gold;
+    margin: 20px 0px 0px 0px;
+    padding: 4px 6px;
+    border-radius: 2%;
+    display: inline-block; /* a are inline elements so we have to make it a block to accept the transform and scale */
+    transition: transform 0.3s ease;
+}
+
+.bttt__a:hover {
+    transform: scale(1.15);
+}
