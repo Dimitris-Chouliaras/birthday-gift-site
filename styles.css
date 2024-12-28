@@ -52,36 +52,36 @@ h1, h2, h4 {
     height: 400px;
     border: 5px solid whitesmoke;
     border-radius: 10px;
-    background-image: url("/birthday-gift-site/img/gift-cover.jpg");
+    background-image: url("/img/gift-cover.jpg");
     background-size: cover;
 }
 
 #gift-img-happy:hover {
-    background-image: url("/birthday-gift-site/img/happy.gif");
+    background-image: url("/img/happy.gif");
     width: 400px;
     height: 400px;
 }
 
 #gift-img-hot:hover {
-    background-image: url("/birthday-gift-site/img/hot.gif");
+    background-image: url("/img/hot.gif");
     width: 400px;
     height: 400px;
 }
 
 #gift-img-genius:hover {
-    background-image: url("/birthday-gift-site/img/genius.gif");
+    background-image: url("/img/genius.gif");
     width: 400px;
     height: 400px;
 }
 
 #gift-img-badass:hover {
-    background-image: url("/birthday-gift-site/img/badass.gif");
+    background-image: url("/img/badass.gif");
     width: 400px;
     height: 400px;
 }
 
 div.gift-img#gift-img-cheers:hover {
-    background-image: url("/birthday-gift-site/img/cheers.gif");
+    background-image: url("/img/cheers.gif");
     width: 400px;
     height: 200px;
 }
@@ -92,7 +92,7 @@ div.gift-img#gift-img-cheers {
     height: 200px;
     border: 5px solid whitesmoke;
     border-radius: 10px;
-    background-image: url("/birthday-gift-site/img/gift-cover.jpg");
+    background-image: url("/img/gift-cover.jpg");
     background-size: cover;
 }
 
