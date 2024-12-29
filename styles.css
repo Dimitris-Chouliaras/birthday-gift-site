@@ -52,36 +52,41 @@ h1, h2, h4 {
     height: 400px;
     border: 5px solid whitesmoke;
     border-radius: 10px;
-    background-image: url("/birthday-gift-site/img/gift-cover.jpg");
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/gift-cover.jpg");
     background-size: cover;
+    transition: background-image 0.2s ease;
+}
+
+#gift-img-cheers {
+    height: 200px;
 }
 
 #gift-img-happy:hover {
-    background-image: url("/birthday-gift-site/img/happy.gif");
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/happy.gif");
     width: 400px;
     height: 400px;
 }
 
 #gift-img-hot:hover {
-    background-image: url("/birthday-gift-site/img/hot.gif");
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/hot.gif");
     width: 400px;
     height: 400px;
 }
 
 #gift-img-genius:hover {
-    background-image: url("/birthday-gift-site/img/genius.gif");
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/genius.gif");
     width: 400px;
     height: 400px;
 }
 
 #gift-img-badass:hover {
-    background-image: url("/birthday-gift-site/img/badass.gif");
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/badass.gif");
     width: 400px;
     height: 400px;
 }
 
 div.gift-img#gift-img-cheers:hover {
-    background-image: url("/birthday-gift-site/img/cheers.gif");
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/cheers.gif");
     width: 400px;
     height: 200px;
 }
@@ -92,7 +97,7 @@ div.gift-img#gift-img-cheers {
     height: 200px;
     border: 5px solid whitesmoke;
     border-radius: 10px;
-    background-image: url("/birthday-gift-site/img/gift-cover.jpg");
+    background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/gift-cover.jpg");
     background-size: cover;
 }
 
@@ -113,6 +118,7 @@ footer {
     width: 400px;
     font-style: italic;
     color: whitesmoke;
+    text-align: center;
 }
 
 a {
@@ -141,4 +147,52 @@ a:active {
 
 .bttt__a:hover {
     transform: scale(1.15);
+}
+
+@media (max-width: 600px) {
+    .gift-img {
+        width: 75%;
+        height: 300px; /* Set a fixed height for the gift image */
+        background-size: cover;
+        background-position: center;
+    }
+    #gift-img-happy:hover {
+        background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/happy.gif");
+        width: 75%;
+        height: 300px;
+    }
+    
+    #gift-img-hot:hover {
+        background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/hot.gif");
+        width: 75%;
+        height: 300px;
+    }
+    
+    #gift-img-genius:hover {
+        background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/genius.gif");
+        width: 75%;
+        height: 300px;
+    }
+    
+    #gift-img-badass:hover {
+        background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/badass.gif");
+        width: 75%;
+        height: 300px;
+    }
+    
+    div.gift-img#gift-img-cheers:hover {
+        background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/cheers.gif");
+        width: 75%;
+        height: 150px;
+    }
+    
+    div.gift-img#gift-img-cheers {
+        margin: 0 auto;
+        width: 75%;
+        height: 150px;
+        border: 5px solid whitesmoke;
+        border-radius: 10px;
+        background-image: url("/Responsive Web Design Certification/Project 15 - BigOneMeh/1) Build and deploy your first website/img/gift-cover.jpg");
+        background-size: cover;
+    }
 }
